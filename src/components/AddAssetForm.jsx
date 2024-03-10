@@ -10,7 +10,7 @@ const validateMessage = {
     },
     number: {
         range: "${label} must be between ${min} and ${max}"
-    }
+    },
 }
 
 export default function AddAssetForm({ onClose }) {
